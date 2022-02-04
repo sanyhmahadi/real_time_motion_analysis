@@ -1,4 +1,4 @@
-# tensorflow-yolov4-tflite
+# Motion-Analysis-Using-tensorflow-yolov4-tflite
 [![Collab](https://colab.research.google.com/drive/1oLeJ4NybyxfiFmX3lUuZRi21Z5Nn5MXw?usp=sharing)](Collab)
 
 YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0. 
