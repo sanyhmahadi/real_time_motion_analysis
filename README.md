@@ -1,5 +1,8 @@
 # Motion-Analysis-Using-tensorflow-yolov4-tflite
-[![Collab](https://colab.research.google.com/drive/1oLeJ4NybyxfiFmX3lUuZRi21Z5Nn5MXw?usp=sharing)](Collab)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oLeJ4NybyxfiFmX3lUuZRi21Z5Nn5MXw?usp=sharing)
+
+
 
 YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0. 
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
