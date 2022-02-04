@@ -3,7 +3,7 @@
 
 YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0. 
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
-<p align="center"><img src="detections/result.avi"\></p>
+<p align="center"><img src="detections/detection1.png"\></p>
 
 ## Getting Started
 ### Conda (Recommended)
@@ -46,7 +46,7 @@ If you want to use yolov4-tiny.weights, a smaller model that is faster at runnin
 ## Using Custom Trained YOLOv4 Weights
 <strong>Learn How To Train Custom YOLOv4 Weights here: https://www.youtube.com/watch?v=mmj3nxGT2YQ </strong>
 
-USE MY LICENSE PLATE TRAINED CUSTOM WEIGHTS: https://drive.google.com/file/d/1EUPtbtdF0bjRtNjGv436vDY28EN5DXDH/view?usp=sharing
+USE MY TRAINED CUSTOM WEIGHTS: https://drive.google.com/drive/folders/1DZSsHD_8wr9e6XAFi6TAKD7QUj63g7oK?usp=sharing
 
 Copy and paste your custom .weights file into the 'data' folder and copy and paste your custom .names into the 'data/classes/' folder.
 
@@ -91,18 +91,6 @@ If you want to run yolov3 or yolov3-tiny change ``--model yolov3`` and .weights 
 
 <strong>Note:</strong> You can also run the detector on multiple images at once by changing the --images flag like such ``--images "./data/images/kite.jpg, ./data/images/dog.jpg"``
 
-### Result Image(s) (Regular TensorFlow)
-You can find the outputted image(s) showing the detections saved within the 'detections' folder.
-#### Pre-trained YOLOv4 Model Example
-<p align="center"><img src="data/helpers/result.png" width="640"\></p>
-
-#### Custom YOLOv4 Model Example (see video link above to train this model)
-<p align="center"><img src="data/helpers/custom_result.png" width="640"\></p>
-
-### Result Video
-Video saves wherever you point --output flag to. If you don't set the flag then your video will not be saved with detections on it.
-<p align="center"><img src="data/helpers/demo.gif"\></p>
-
 ## YOLOv4 Using TensorFlow Lite (.tflite model)
 Can also implement YOLOv4 using TensorFlow Lite. TensorFlow Lite is a much smaller model and perfect for mobile or edge devices (raspberry pi, etc).
 ```bash
@@ -130,10 +118,6 @@ python detect.py --weights ./checkpoints/yolov4-416.tflite --size 416 --model yo
 # Run custom tflite model
 python detect.py --weights ./checkpoints/custom-416.tflite --size 416 --model yolov4 --images ./data/images/car.jpg --framework tflite
 ```
-### Result Image (TensorFlow Lite)
-You can find the outputted image(s) showing the detections saved within the 'detections' folder.
-#### TensorFlow Lite int8 Example
-<p align="center"><img src="data/helpers/result-int8.png" width="640"\></p>
 
 Yolov4 and Yolov4-tiny int8 quantization have some issues. I will try to fix that. You can try Yolov3 and Yolov3-tiny int8 quantization 
 
