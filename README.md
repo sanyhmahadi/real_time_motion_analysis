@@ -8,6 +8,8 @@ YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0.
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
 <p align="center"><img src="detections/detection1.png"\></p>
 
+                                              **Please Ignore the spelling mistake on bounding box**
+
 ## Getting Started
 ### Conda (Recommended)
 
