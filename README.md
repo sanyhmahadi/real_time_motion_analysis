@@ -33,7 +33,6 @@ https://developer.nvidia.com/cuda-10.1-download-archive-update2
 ### Performance
 Check out how YOLOv4 compares to other object detection systems.
 
-<p align="center"><img src="data/helpers/performance.png" width="640"\></p>
 
 ## Downloading Official Pre-trained Weights
 YOLOv4 comes pre-trained and able to detect 80 classes. For easy demo purposes we will use the pre-trained weights.
