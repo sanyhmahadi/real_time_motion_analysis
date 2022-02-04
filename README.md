@@ -1,5 +1,5 @@
 # tensorflow-yolov4-tflite
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![Collab](https://colab.research.google.com/drive/1oLeJ4NybyxfiFmX3lUuZRi21Z5Nn5MXw?usp=sharing)](Collab)
 
 YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0. 
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
