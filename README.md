@@ -6,6 +6,21 @@
 
 YOLOv4, YOLOv4-tiny Implemented in Tensorflow 2.0. 
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
+
+
+
+**Video Credit:- https://www.youtube.com/watch?v=_P_F2nQIlkI**
+
+**Note:** Sometimes my detector detect the wrogn motion because of small dataset and my GPU. During traing i use only 80 images and my GPU was very low!
+
+https://user-images.githubusercontent.com/44267480/152479906-240a5f4e-dd79-4b7f-bc3b-b8668c6e611c.mp4
+
+
+
+
+
+
+                                                          **Detecting From Images**
 <p align="center"><img src="detections/detection1.png"\></p>
 
                                               **Please Ignore the spelling mistake on bounding box**
